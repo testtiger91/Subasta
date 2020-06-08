@@ -1,0 +1,56 @@
+/* Custom Stylesheet */
+/**
+* Use this file to override Materialize files so you can update
+* the core Materialize files in the future
+*
+* Made By MaterializeCSS.com
+*/
+
+.icon-block {
+  padding: 0 15px;
+  background-image: url("img/imagen1.jpg");
+  background-size: cover;
+  height: 20rem;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+#index-banner{
+  background-image: url("img/22060-[Convertido].png");
+  background-size: cover;
+  background-position: right;
+  /* height: 30rem; */
+}
+.title-container{
+  /* position: relative;
+  top: 13rem; */
+  background-color: rgba(214,222,202,0.8);
+}
+.footer-container{
+  background-color: rgba(110,229,240,0.8);
+  display: flex;
+  justify-content: space-around;
+  /* position: relative;
+  top: 14rem; */
+}
+.page-footer{
+  padding-top: 96px !important;
+}
+.footer-img{
+  width: 2rem;
+}
+.carousel-item{
+  /* background-position: center center; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+.carousel-item-container{
+  background-color: rgba(214,222,202,0.8);
+}
+#contacto{
+  background-color: rgba(230, 237, 237,0.8);s
+}
+.carousel{
+  height: 465px !important;
+}

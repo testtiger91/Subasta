@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation" style="position:fixed;z-index:1">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">CARTERELA DE SUBASTAS</a></li>
+        <li><a href="#">QUIERO SUBASTAR</a></li>
+        <li><a href="#">CÓMO PARTICIPAR</a></li>
+        <li><a href="#"><i class="material-icons">phone</i></a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">CARTERELA DE SUBASTAS</a></li>
+        <li><a href="#">QUIERO SUBASTAR</a></li>
+        <li><a href="#">CÓMO PARTICIPAR</a></li>
+        <li><a href="#"><i class="material-icons">phone</i></a>3435058379</li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <br>
+    <br>
+    <div class="row center">
+      <h3 class="header center" style="color:white">¿QUE ESTÁS BUSCANDO?</h3>
+      <div class="offset-s3 input-field col s6" style="display:flex">
+        <input placeholder="Por ej:autos, herramientas, utensillos" id="search-subasta" type="text" style="background:white">
+        <a class="waves-effect waves-light btn" style="height: 3rem;"><i class="material-icons left">search</i></a>
+      </div>
+    </div>
+    <br><br>
+
+  </div>
+
+
+  <div class="container row">
+    <div class="section">
+      <div class="carousel carousel-slider center col s12 m7">
+        <div class="carousel-item red white-text">
+          <div class="carousel-item-container">
+            <h2 class="header black-text backgroundOpacity">Subasta 1</h2>
+            <div class="carousel-item-date-container" style="display: flex;justify-content: space-evenly;">
+              <p><i class="material-icons left">date_range</i>12/05/2020</p>
+              <p><i class="material-icons left">access_time</i>14:30</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item blue white-text">
+          <div class="carousel-item-container">
+            <h2 class="header black-text backgroundOpacity">Subasta 2</h2>
+            <div class="carousel-item-date-container" style="display: flex;justify-content: space-evenly;">
+              <p><i class="material-icons left">date_range</i>12/05/2020</p>
+              <p><i class="material-icons left">access_time</i>14:30</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item green white-text">
+          <div class="carousel-item-container">
+            <h2 class="header black-text backgroundOpacity">Subasta 3</h2>
+            <div class="carousel-item-date-container" style="display: flex;justify-content: space-evenly;">
+              <p><i class="material-icons left">date_range</i>12/05/2020</p>
+              <p><i class="material-icons left">access_time</i>14:30</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contacto" class="offset-m1 col s12 m4">
+        <form class="" action="" method="post" id="formulario-correo">
+          <h4>Contactanos</h4>
+          <div class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input type="text" id="autocomplete-input" class="autocomplete" name="nombre" required>
+                <label for="autocomplete-input">Nombre</label>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">call_end</i>
+                <input type="tel" id="autocomplete-input" class="autocomplete" name="tel">
+                <label for="autocomplete-input">Teléfono</label>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">drafts</i>
+                <input type="email" id="autocomplete-input" class="autocomplete" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Formato de correo incorrecto">
+                <label for="autocomplete-input">Email</label>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">textsms</i>
+                <input type="text" id="autocomplete-input" class="autocomplete" name="mensaje" required>
+                <label for="autocomplete-input">Consulta</label>
+              </div>
+              <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+              <button class="btn waves-effect waves-light" type="submit" name="action" id="enviar-form">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <h4 class="header left" style="width: 100%;">PRÓXIMAS SUBASTAS</h4>
+    <div class="section">
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <div class="title-container">
+              <h5 class="center">Subasta 1</h5>
+            </div>
+            <div class="footer-container">
+              <p><i class="material-icons left">date_range</i>12/05/2020</p>
+              <p><i class="material-icons left">access_time</i>14:30</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <div class="title-container">
+              <h5 class="center">Subasta 2</h5>
+            </div>
+            <div class="footer-container">
+              <p><i class="material-icons left">date_range</i>12/05/2020</p>
+              <p><i class="material-icons left">access_time</i>14:30</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <div class="title-container">
+              <h5 class="center">Subasta 3</h5>
+            </div>
+            <div class="footer-container">
+              <p><i class="material-icons left">date_range</i>12/05/2020</p>
+              <p><i class="material-icons left">access_time</i>14:30</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+  </div>
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l5 s12">
+          <h5 class="white-text"><u>Ubicación</u></h5>
+          <p>Santa Fe 434, Paraná, Entre Ríos</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.653833297226!2d-60.53048386124658!3d-31.72534979286972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b452635b7825a3%3A0xb752ca8b95cd07a7!2sSanta%20Fe%20434%2C%20Paran%C3%A1%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses!2sar!4v1591588906617!5m2!1ses!2sar" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="col l4 s12">
+          <h5 class="white-text"><u>Contactos</u></h5>
+          <ul>
+            <li><a class="white-text" href="#!"><i class="material-icons prefix">mail_outline</i><br></a></li>
+            <li><a class="white-text" href="#!"><i class="material-icons prefix">phone</i><br>0343 15-461-1704</a></li>
+            <li><a class="white-text" href="https://wa.link/cwfyb2"><img class="footer-img" src="css/img/whatsapp.png"><br>Tambien podes consultarnos por WhatsApp</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text"><u>Redes</u></h5>
+          <ul>
+            <li><a class="white-text" href=""><img class="footer-img" src="css/img/facebook.png"><br>Facebook</a></li>
+            <li><a class="white-text" href=""><img class="footer-img" src="css/img/twitter.png"><br>Twitter</a></li>
+            <li><a class="white-text" href=""><img class="footer-img" src="css/img/instagram.png"><br>Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- <div class="row right">
+      <div class="container">
+      <div class="col l3 s12"> -->
+      <!-- Element Showed -->
+      <!-- <a id="menu" class="waves-effect waves-light btn btn-floating" onclick="$('.tap-target').tapTarget('open')"><i class="material-icons">menu</i></a> -->
+
+      <!-- Tap Target Structure -->
+      <!-- <div class="tap-target" data-target="menu">
+      <div class="tap-target-content">
+      <h5>Title</h5>
+      <p>A bunch of text</p>
+    </div>
+  </div>
+</div>
+</div>
+</div> -->
+</div>
+<div class="footer-copyright">
+  <div class="container">
+    <!-- <a class="orange-text text-lighten-3" href="#">Copyright y datos</a> -->
+  </div>
+</div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script type="text/javascript">
+function myTimer() {
+  $('.carousel.carousel-slider').carousel('next');
+}
+
+$('.carousel.carousel-slider').carousel({
+  fullWidth: true,
+  indicators: true
+});
+if($('.carousel-item').length > 1){
+  var myVar = setInterval(myTimer, 6000);
+}
+</script>
+
+</body>
+</html>
